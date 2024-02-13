@@ -11,9 +11,7 @@ keywords:
 home: https://swagger.io
 icon: https://transfer.legal/wp-content/uploads/2016/12/logo-swagger.png
 source:
-  - https://github.com/cetic/helm-chart
+  - https://github.com/gutter007/helm-swagger-ui
 maintainers:
-  - name: SellamiRami
-    email: rami.sellami@cetic.be
-    url: https://github.com/SellamiRami
-  - name: alexnuttinck
+  - name: gutter007
+    url: https://github.com/gutter007
