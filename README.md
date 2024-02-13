@@ -1,11 +1,7 @@
 # Helm Chart for swagger-ui
 
-[![CircleCI](https://circleci.com/gh/cetic/helm-swagger-ui.svg?style=svg)](https://circleci.com/gh/cetic/helm-swagger-ui/tree/master) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![version](https://img.shields.io/github/tag/cetic/helm-swagger-ui.svg?label=release)
-![test](https://github.com/cetic/helm-swagger-ui/actions/workflows/basic_test.yml/badge.svg)
-
-## $${\color{red}This \space project \space is \space not \space maintained \space anymore.}$$
-
-If you are interested in maintaining a fork of this project, you can advertise it in the [dedicated issue](https://github.com/cetic/helm-swagger-ui/issues/28).
+[![CircleCI](https://circleci.com/gh/gutter007/helm-swagger-ui.svg?style=svg)](https://circleci.com/gh/gutter007/helm-swagger-ui/tree/master) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) ![version](https://img.shields.io/github/tag/gutter007/helm-swagger-ui.svg?label=release)
+![test](https://github.com/gutter007/helm-swagger-ui/actions/workflows/basic_test.yml/badge.svg)
 
 ## Introduction
 
@@ -13,7 +9,7 @@ This [Helm](https://github.com/kubernetes/helm) chart installs [swagger-ui](http
 
 ## Prerequisites
 
-- Kubernetes cluster 1.10+
+- Kubernetes cluster 1.24+
 - Helm 3.0.0+
 - PV provisioner support in the underlying infrastructure.
 
@@ -22,7 +18,7 @@ This [Helm](https://github.com/kubernetes/helm) chart installs [swagger-ui](http
 ### Add Helm repository
 
 ```bash
-helm repo add cetic https://cetic.github.io/helm-charts
+helm repo add swaggerui https://gutter007.github.io/helm-charts
 helm repo update
 ```
 
@@ -42,7 +38,7 @@ The following items can be set via `--set` flag during installation or configure
 Install the swagger-ui helm chart with a release name `my-release`:
 
 ```bash
-helm install my-release cetic/swaggerui
+helm install my-release gutter007/swaggerui
 ```
 
 ## Uninstallation
@@ -100,7 +96,7 @@ The following table lists the configurable parameters of the swagger-ui chart an
 
 ## Contributing
 
-Feel free to contribute by making a [pull request](https://github.com/cetic/helm-swagger-ui/pull/new/master).
+Feel free to contribute by making a [pull request](https://github.com/gutter007/helm-swagger-ui/pull/new/master).
 
 Please read the official [Contribution Guide](https://github.com/helm/charts/blob/master/CONTRIBUTING.md) from Helm for more information on how you can contribute to this Chart.
 
