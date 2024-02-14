@@ -38,7 +38,8 @@ The following items can be set via `--set` flag during installation or configure
 Install the swagger-ui helm chart with a release name `my-release`:
 
 ```bash
-helm install my-release gutter007/swaggerui
+helm repo add swagger-ui https://gutter007.github.io/helm-swagger-ui/
+helm install my-release swagger-ui/swaggerui
 ```
 
 ## Uninstallation
